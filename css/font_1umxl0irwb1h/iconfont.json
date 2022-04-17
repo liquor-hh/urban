@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1330714",
+      "name": "查找",
+      "font_class": "chazhao",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "2882750",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "7008956",
+      "name": "like",
+      "font_class": "like",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "7206310",
+      "name": "Menu",
+      "font_class": "Menu",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "12863352",
+      "name": "shopbag",
+      "font_class": "shopbag",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Style 1</title>
+    <link rel="stylesheet" href="./css/Tab-Style-1.css">
+    <link rel="stylesheet" href="./swiper-7.4.1/swiper/swiper-bundle.min.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_3mq5tegybc1.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_j3dkwyw48l.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_tw8vl9gps4.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_czg8p88mits.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3126714_nrfb6ewcb5t.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3165032_k2upe2q8sr.css">
+    <link rel="stylesheet" href="./css/font_1umxl0irwb1h/iconfont.css"> 
+    <script src="./swiper-7.4.1/swiper/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- swiper animate -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <script src="./js/swiper.animate1.0.3.min.js"></script>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"   rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <!-- 放大镜 -->
+    <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="./EasyZoom-master/dist/easyzoom.js"></script>  
+	<link rel="stylesheet" href="./EasyZoom-master/css/easyzoom.css" />
+</head>
+<body>
+        <!-- 遮罩 -->
+        <div class="body-turn"></div>
+        <div class="zoom-back">
+            <div class="img-wrap">
+                <button class="guanbi">
+                    <span class="iconfont icon-guanbi"></span>
+                </button>
+                <img src="./image/pro-details-large-img-1.png" alt="">
+                <div class="num">
+                    <span class="ind">1</span>
+                    <span> of 5</span>
+                </div> 
+            </div>
+            <button class="img-left">
+                <span class="iconfont icon-jiantouzuo"></span>
+            </button>
+            <button class="img-right">
+                <span class="iconfont icon-jiantouyou"></span>
+            </button>
+        </div>
+        <div class="top">
+            <a href="#"><span class="iconfont icon-top"></span></a>
+        </div>
+        <div class="margin">
+                <a class="rotate" href="#">
+                    <i class="iconfont icon-guanbi"></i>
+                </a>    
+            <h3>Shopping Cart</h3>       
+            <ul>
+                <li class="clearfix cart-count">
+                    <div class="cart-left">
+                        <a href="#">
+                            <img src="./image/cart-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="cart-right">
+                        <a href="#">Stylish Swing Chair</a>
+                        <p>1 x $49.00</p>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                            </svg>
+                        </a>  
+                    </div>
+                </li>   
+                <li class="clearfix cart-count">
+                    <div class="cart-left">
+                        <a href="#">
+                            <img src="./image/cart-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="cart-right">
+                        <a href="#">Modern Chairs</a>
+                        <p>1 x $49.00</p>  
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                            </svg>
+                        </a>  
+                    </div>
+                </li>
+            </ul>
+            <p class="total clearfix">
+                <span>Subtotal:</span>
+                <span>$170.00</span>
+            </p>
+            <div class="view-cart">
+                <a href="#">view Cart</a>
+            </div>
+            <div class="checkout">
+                <a href="#">checkout</a>
+            </div>
+        </div>
+        <header>
+            <div class="header-top hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-lg-6">
+                            <p>Default Welcome Msg!</p>
+                        </div>
+                        <div class="col-6 col-lg-6 clearfix">
+                            <div class="nav-right">
+                                <div class="language">
+                                    <a href="#">
+                                        English
+                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                    </a>
+                                    <ul class="dropdown">
+                                        <li>
+                                            <a href="#">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Spanish</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Arabic</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dollar">
+                                    <a href="#">
+                                        $ Dollar (US))
+                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                    </a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Taka (BDT)</a></li>
+                                        <li><a href="#">Riyal (SAR)</a></li>
+                                        <li><a href="#">Rupee (INR)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container clearfix">
+                    <h1>urdan.</h1>
+                    <ul class="clearfix hidden-xs">
+                        <li class="home">
+                            <a href="#">HOME</a>
+                            <ul>
+                                <li><a href="./index.html">Home Version 1</a></li>
+                                <li><a href="./index2.html">Home Version 2</a></li>
+                                <li><a href="./index3.html">Home Version 3</a></li>
+                                <li><a href="./index4.html">Home Version 4</a></li>
+                                <li><a href="./index5.html">Home Version 5</a></li>
+                                <li><a href="./index6.html">Home Version 6</a></li>
+                                <li><a href="#">Home Version 7</a></li>
+                                <li><a href="#">Home Version 8</a></li>
+                            </ul>
+                        </li>
+                        <li class="shop">
+                            <a href="./Shop.html">SHOP</a>
+                            <div class="drop clearfix">
+                                <ul>
+                                    <li class="shop"><a href="./Shop.html">Shop Layout</a></li>
+                                    <li><a href="./Shop.html">Standard Style</a></li>
+                                    <li><a href="./shop-sidebar.html">Shop Grid Sidebar</a></li>
+                                    <li><a href="">Shop List Style</a></li>
+                                    <li><a href="">Shop List Sidebar</a></li>
+                                    <li><a href="">Shop Right Sidebar</a></li>
+                                    <li><a href="">Store Location</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="products"><a href="">Products Layout</a></li>
+                                    <li><a href="./Tab Style 1.html">Tab Style 1</a></li>
+                                    <li><a href="">Tab Style 2</a></li>
+                                    <li><a href="">Gallery Style</a></li>
+                                    <li><a href="">Affiliate Style</a></li>
+                                    <li><a href="">Group Style</a></li>
+                                    <li><a href="">Fixed Image Style</a></li>
+                                </ul>
+                                <div class="img-menu">
+                                    <a href="">
+                                        <img src="./image/menu.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pages">
+                            <a href="./About us.html">PAGES</a>
+                            <ul>
+                                <li><a href="./About us.html">About Us</a></li>
+                                <li><a href="./Cart.html">Cart Page</a></li>
+                                <li><a href="">Checkout</a></li>
+                                <li><a href="">My Account</a></li>
+                                <li><a href="">Wishlist</a></li>
+                                <li><a href="">Compare</a></li>
+                                <li><a href="./Contact Us.html">Contact Us</a></li>
+                                <li><a href="">Login / Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="blog">
+                            <a href="#">BLOG</a>
+                            <ul>
+                                <li><a href="./Blog.html">Blog Standard</a></li>
+                                <li><a href="">Blog Sidebar</a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./About us.html">ABOUT</a></li>
+                        <li><a href="./Contact Us.html">CONTACT US</a></li>
+                    </ul>
+                    <ul class="clearfix">
+                        <li class="search">
+                            <a href="#">
+                                <span class="iconfont icon-chazhao"></span>
+                                <span class="iconfont icon-guanbi"></span>
+                            </a>
+                            <div class="input-wrap">
+                                <form action="#"> 
+                                    <input type="text" placeholder="Search products...">
+                                    <button>
+                                        <span class="iconfont icon-chazhao"></span>
+                                    </button>
+                                </form>          
+                            </div>
+                        </li>
+                        <li><a href="#"><span class="iconfont icon-touxiang"></span></a></li>
+                        <li><a href="#"><span class="iconfont icon-like"></span></a></li>
+                        <li>
+                            <a class="bag-warp" href="#">
+                            <span class="iconfont icon-shopbag"></span>
+                            <div class="bag-circle">01</div>
+                             </a>
+                        </li>
+                        <li class="visible-xs">
+                            <a href="#">
+                            <span class="iconfont icon-Menu"></span>
+                             </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-top">
+                <div class="img-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                    <img src="./image/breadcrumb-1.png" alt="">
+                </div>
+                <div class="img-right wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                    <img src="./image/breadcrumb-2.png" alt="">
+                </div>
+                <div class="mid-wrap">
+                    <div class="content-wrap">
+                        <h1>Product Details</h1>
+                        <a href="./Shop.html">Home</a>
+                        <span class="iconfont icon-right1"></span>
+                        <p>Product Details</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="container">
+                    <div class="col-lg-6 main-left">
+                        <div class="swiper" id="thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img-wrap easyzoom easyzoom--overlay">
+                                        <a href="./image/pro-details-zoom-img-1.png">
+                                            <img src="./image/pro-details-large-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="search-wrap">
+                                        <span class="iconfont icon-chazhao"></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-wrap easyzoom easyzoom--overlay">
+                                         <a href="./image/pro-details-zoom-img-2.png">
+                                            <img src="./image/pro-details-large-img-2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="search-wrap">
+                                        <span class="iconfont icon-chazhao"></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-wrap easyzoom easyzoom--overlay">
+                                         <a href="./image/pro-details-zoom-img-3.png">
+                                            <img src="./image/pro-details-large-img-3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="search-wrap">
+                                        <span class="iconfont icon-chazhao"></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-wrap easyzoom easyzoom--overlay">
+                                        <a href="./image/pro-details-zoom-img-4.png">
+                                            <img src="./image/pro-details-large-img-4.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="search-wrap">
+                                        <span class="iconfont icon-chazhao"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper2" id="gallery">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1">
+                                    <div class="img-wrap">
+                                        <img src="./image/pro-details-small-img-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide2">
+                                    <div class="img-wrap">
+                                        <img src="./image/pro-details-small-img-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide3">
+                                    <div class="img-wrap">
+                                        <img src="./image/pro-details-small-img-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide4">
+                                    <div class="img-wrap">
+                                        <img src="./image/pro-details-small-img-4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <a id="btn1" href="#">
+                                <span class="iconfont icon-shouqijiantouxiao"></span>
+                            </a>
+                            <a id="btn2" href="#">
+                                <span class="iconfont icon-xialajiantouxiao"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dialog-wrap">
+                            <div class="content">
+                                <h3>New Modern Chair</h3>
+                                <p class="price">$25.89<span>$20.25</span></p>
+                                <div class="star-wrap">
+                                    <ul class="star clearfix">
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                    </ul>
+                                    <span>(1 Customer Review )</span>
+                                </div>
+                                <div class="color">
+                                    <span>Color :</span>
+                                    <ul class="selecter clearfix">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer ornare tincidunt <br>
+                                    neque vel semper.  Cras placerat enim sed nisl mattis eleifend.
+                                </p>
+                                <div class="add">
+                                    <div class="add-num">
+                                        <a class="minus" href="#">-</a>
+                                        <input type="text" value="1">
+                                        <a class="plus" href="#">+</a>
+                                    </div>
+                                    <div class="cart-add">
+                                        <a href="#">
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                    <div class="cart-select">
+                                        <a href="#">
+                                            <span class="iconfont icon-like"></span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="iconfont icon-shuffle"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <div class="container">
+                    <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="col-lg-12 col-xs-12 img-select">
+                            <div class="title">
+                                <a class="title1 color-turn" href="#area1">New Arrivals</a>
+                                <a class="title2" href="#area2">Best Sellers</a>
+                                <a class="title3" href="#area3">Sale Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="area1" class="area-wrap active">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                            est laborum. Sed ut per unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        </p>
+                    </div>
+                    <div id="area2" class="area-wrap">
+                        <table>
+                            <tr>   
+                                <td>Brands</td>
+                                <td>Airi, Brand, Draven, Skudmart, Yena</td>
+                            </tr>
+                            <tr>
+                                <td>Color</td>
+                                <td>Blue, Gray, Pink</td>
+                            </tr>
+                            <tr>
+                                <td>Size</td>
+                                <td>L,M, S,XL, XXL</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="area3" class="area-wrap">
+                        <h3>1 review for Sleeve Button Cowl Neck
+                        </h3>
+                        <div class="resume clearfix">
+                            <div class="left">
+                                <img src="./image/review-1.png" alt="">
+                            </div>
+                            <div class="right">
+                                <div class="star-wrap">
+                                    <ul class="star clearfix">
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                        <li><span class="iconfont icon-star"></span></li>
+                                    </ul>
+                                </div>
+                                <p>HasTech - April 29, 2020</p>
+                                <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. <br>
+                                    Aliquam egestas libero ac turpis pharetra, in vehicula lacus scelerisque</p>
+                            </div>
+                        </div>
+                        <div class="add">
+                            <h3>Add a Review</h3>
+                            <p>Your email address will not be published. Required fields are marked *
+                            </p>
+                        </div>
+                        <div class="rate clearfix">
+                            <span>Your rating</span>
+                            <div class="star-wrap">
+                                <ul class="star clearfix">
+                                    <li><span class="iconfont icon-star"></span></li>
+                                    <li><span class="iconfont icon-star"></span></li>
+                                    <li><span class="iconfont icon-star"></span></li>
+                                    <li><span class="iconfont icon-star"></span></li>
+                                    <li><span class="iconfont icon-star"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-xs-12">
+                                    <div class="name">
+                                        <label>Name*</label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <div class="email">
+                                        <label>Email*</label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="review">
+                                        <label>Your review*</label>
+                                        <textarea></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="save clearfix">
+                                    <input type="checkbox">
+                                    <p>Save my name, email, and website in this browser for the next time | comment.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="submit">
+                                    <a href="#">Submit</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-12">
+                            <div class="footer-left">
+                                <div class="img-wrap">
+                                    <a href="#">
+                                      <img src="./image/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, cons
+                                    adipi elit, sed do eiusmod tempor
+                                    incididunt ut aliqua.
+                                </p>
+                            </div>
+                            <div class="logo-wrap">
+                                <a href="#">
+                                    <img src="./image/payment.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                            <div class="infor">
+                                <h3>Information</h3>
+                                <ul class="content">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Customer Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <div class="infor account">
+                                <h3>My Accound</h3>
+                                <ul class="content">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Order History</a></li>
+                                    <li><a href="#">Wish List</a></li>
+                                    <li><a href="#">Newsletter</a></li>
+                                    <li><a href="#">Order History</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-xs-12">
+                            <div class="touch">
+                                <h3>Get in touch</h3>
+                                <ul class="content">
+                                    <li>
+                                        <span>Address:</span>
+                                        Your address goes here
+                                    </li>
+                                    <li>
+                                        <span>Telephone Enquiry:</span>
+                                        (012) 345 6789
+                                    </li>
+                                    <li>
+                                        <span>Email:</span>
+                                        demo@example.com
+                                    </li>
+                                    <li>
+                                        Open:
+                                        <span>8:00 AM</span>
+                                        - Close :
+                                        <span>18:00 PM</span>
+                                    </li>
+                                    <li>
+                                        Saturday - Sunday : Close
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                    <p>
+                        Copyright @2021 All rights reserved | Made with by
+                        <span class="iconfont icon-like"></span>
+                        <a href="#">HasThemes.</a>
+                    </p>
+            </div>
+        </footer>
+        
+            
+    <script>
+        //指针划过a变色
+        $('.dollar').hover(function (even) {
+            even.preventDefault()
+            $('.dollar>ul').stop().slideDown(300)
+            $('.dollar a').hover(function (even) {
+                $(this).addClass('turn-decoration')
+            }, function () {
+                $(this).removeClass('turn-decoration')
+            })
+        }, function () {
+            $('.dollar>ul').stop().slideUp(300)
+        })
+
+        $('.language').hover(function (even) {
+            even.preventDefault()
+            $('.language>ul').stop().slideDown(300)
+            $('.language a').hover(function (even) {
+                $(this).addClass('turn-decoration')
+            }, function () {
+                $(this).removeClass('turn-decoration')
+            })
+        }, function () {
+            $('.language>ul').stop().slideUp(300)
+        })
+
+        //点击a取消a的下划线效果
+        $('a').click(function (even) {
+            even.preventDefault()
+            $(this).css('text-decoration', 'none').slideDown()
+        })
+        //单击公文包按钮，出现右侧margin，同时body变暗
+        $('.bag-warp').click(function (even) {
+            even.preventDefault()
+            // $('body').addClass('body-turn')
+            $('.body-turn').css('visibility', 'visible')
+            $('.margin').animate({
+                right: '0',
+                opacity: '1',
+            })
+        })
+        $('.rotate').click(function () {
+            // $('body').removeClass('body-turn')
+            $('.body-turn').css('visibility', 'hidden')
+            $('.margin').animate({
+                right: '-406px',
+                opacity: '0'
+            })
+        })
+        //滚动条超过header-top时滑动并固定
+        $(window).scroll(function (even) {
+            even.preventDefault()
+            var h = $('header').outerHeight()
+            var s = $(window).scrollTop()
+            if (s > h) {
+                $('.header-bottom').addClass('header-bottom-animate')
+
+            } else {
+                $('.header-bottom').removeClass('header-bottom-animate')
+            }
+        })
+        //动画
+        new WOW().init();
+        //轮播图
+            var thumbsSwiper = new Swiper('#thumbs', {
+                spaceBetween: 10,
+                loop: true,
+                slidesPerView: 'auto',
+               
+            })
+            var gallerySwiper = new Swiper('#gallery', {
+                spaceBetween: 10,
+                loop: true,
+                slidesPerView: 4,
+                direction : 'vertical',
+
+                thumbs: {
+                    swiper: thumbsSwiper,
+                }
+            })
+            $('.slide1').click(function(){
+                thumbsSwiper.slideTo(0, 1000, false);
+                $(this).addClass('active-slide').siblings().removeClass('active-slide')
+            })
+            $('.slide2').click(function(){
+                thumbsSwiper.slideTo(1, 1000, false);
+                $(this).addClass('active-slide').siblings().removeClass('active-slide')
+            })
+            $('.slide3').click(function(){
+                thumbsSwiper.slideTo(2, 1000, false);
+                $(this).addClass('active-slide').siblings().removeClass('active-slide')
+            })
+            $('.slide4').click(function(){
+                thumbsSwiper.slideTo(3, 1000, false);
+                $(this).addClass('active-slide').siblings().removeClass('active-slide')
+            })
+            $('#btn1').click(function(){
+                gallerySwiper.slidePrev();
+            })
+            $('#btn2').click(function(){
+                gallerySwiper.slideNext();
+            })    
+        //点击.top返回顶部
+        $('.top').click(function () {
+            $(window).scrollTop(0)
+        })
+        //menu下拉菜单
+        $('.header-bottom .container>ul>li').eq(0).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(1).hover(function () {
+            $('.header-bottom .container>ul>li>div').stop().slideDown()
+        }, function () {
+            $('.header-bottom .container>ul>li>div').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(2).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(3).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        //搜索框
+        $('.header-bottom .container>ul:nth-of-type(2) .icon-chazhao').click(function (event) {
+            event.preventDefault()
+            $('.header-bottom .input-wrap').addClass('input-ani')
+            $('.header-bottom .search a .icon-guanbi').css('display', 'inline')
+            $('.header-bottom .search a .icon-chazhao').css('display', 'none')
+        })
+        $('.header-bottom .search a .icon-guanbi').click(function (event) {
+            event.preventDefault()
+            $('.header-bottom .input-wrap').removeClass('input-ani')
+            $('.header-bottom .search a .icon-guanbi').css('display', 'none')
+            $('.header-bottom .search a .icon-chazhao').css('display', 'inline')
+        })
+        //增减购物车的数量
+        $('.minus').click(function () {
+            var num = $('.add-num input').val() * 1;
+            if (num > 0) {
+                num = num - 1
+            };
+            $('.add-num input').val(num);
+        })
+        $('.plus').click(function () {
+            var num = $('.add-num input').val() * 1;
+            num = num + 1;
+            $('.add-num input').val(num)
+        })
+             //根据主题.title a更换所对应area区域，并改变$(this)颜色
+             $('.title a').click(function(event) {
+            event.preventDefault()
+            $(this).addClass('color-turn').siblings().removeClass('color-turn')
+            var n = $(this).index()
+            $('.information .area-wrap').eq(n).addClass('active').siblings().removeClass('active')
+        })
+                // Instantiate EasyZoom plugin
+        var $easyzoom = $('.easyzoom').easyZoom();
+        // Get the instance API
+        var api = $easyzoom.data('easyZoom');
+        $('#thumbs .swiper-slide .search-wrap').click(function(){
+            $('body').addClass('switch')
+            $('.body-turn').css('visibility','visible')
+            $('.zoom-back').css('visibility','visible')     
+        })
+        $('.zoom-back .img-wrap .guanbi').click(function(){
+            $('body').removeClass('switch')
+            $('.body-turn').css('visibility','hidden')
+            $('.zoom-back').css('visibility','hidden')   
+        })
+        $('.zoom-back .img-right').click(function(){ 
+            var s = $('.zoom-back .img-wrap .num .ind').text()
+            n = Number(s)
+            n++
+            $('.zoom-back .img-wrap .num .ind').text(n)
+            $('.zoom-back .img-wrap img').attr('src','./image/pro-details-large-img-'+n+'.png')
+            if(n > 5) {
+                $('.zoom-back .img-wrap .num .ind').text(1)
+                $('.zoom-back .img-wrap img').attr('src','./image/pro-details-large-img-1.png')
+            }     
+        })
+        $('.zoom-back .img-left').click(function(){ 
+            var s = $('.zoom-back .img-wrap .num .ind').text()
+            n = Number(s)
+            n--
+            $('.zoom-back .img-wrap .num .ind').text(n)
+            $('.zoom-back .img-wrap img').attr('src','./image/pro-details-large-img-'+n+'.png')
+            if(n < 1) {
+                $('.zoom-back .img-wrap .num .ind').text(5)
+                $('.zoom-back .img-wrap img').attr('src','./image/pro-details-large-img-5.png')
+            }     
+        })
+    </script>
+</body>
+</html>

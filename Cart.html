@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/Cart.css">
+    <link rel="stylesheet" href="./swiper-7.4.1/swiper/swiper-bundle.min.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_3mq5tegybc1.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_j3dkwyw48l.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_tw8vl9gps4.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3126714_czg8p88mits.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3126714_nrfb6ewcb5t.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3165032_ayw0pn2gohs.css">
+    <link rel="stylesheet" href="./css/font_1umxl0irwb1h/iconfont.css"> 
+    <script src="./swiper-7.4.1/swiper/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- swiper animate -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <script src="./js/swiper.animate1.0.3.min.js"></script>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"   rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/wow.js"></script> 
+</head>
+<body>
+            <!-- 遮罩 -->
+            <div class="body-turn"></div>
+            <div class="top">
+                <a href="#"><span class="iconfont icon-top"></span></a>
+            </div>
+            <div class="margin">
+                    <a class="rotate" href="#">
+                        <i class="iconfont icon-guanbi"></i>
+                    </a>    
+                <h3>Shopping Cart</h3>       
+                <ul>
+                    <li class="clearfix cart-count">
+                        <div class="cart-left">
+                            <a href="#">
+                                <img src="./image/cart-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="cart-right">
+                            <a href="#">Stylish Swing Chair</a>
+                            <p>1 x $49.00</p>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                                </svg>
+                            </a>  
+                        </div>
+                    </li>   
+                    <li class="clearfix cart-count">
+                        <div class="cart-left">
+                            <a href="#">
+                                <img src="./image/cart-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="cart-right">
+                            <a href="#">Modern Chairs</a>
+                            <p>1 x $49.00</p>  
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                                </svg>
+                            </a>  
+                        </div>
+                    </li>
+                </ul>
+                <p class="total clearfix">
+                    <span>Subtotal:</span>
+                    <span>$170.00</span>
+                </p>
+                <div class="view-cart">
+                    <a href="#">view Cart</a>
+                </div>
+                <div class="checkout">
+                    <a href="#">checkout</a>
+                </div>
+            </div>
+            <header>
+                <div class="header-top hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-lg-6">
+                                <p>Default Welcome Msg!</p>
+                            </div>
+                            <div class="col-6 col-lg-6 clearfix">
+                                <div class="nav-right">
+                                    <div class="language">
+                                        <a href="#">
+                                            English
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </a>
+                                        <ul class="dropdown">
+                                            <li>
+                                                <a href="#">English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Spanish</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Arabic</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dollar">
+                                        <a href="#">
+                                            $ Dollar (US))
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Taka (BDT)</a></li>
+                                            <li><a href="#">Riyal (SAR)</a></li>
+                                            <li><a href="#">Rupee (INR)</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container clearfix">
+                        <h1>urdan.</h1>
+                        <ul class="clearfix hidden-xs">
+                            <li class="home">
+                                <a href="#">HOME</a>
+                                <ul>
+                                    <li><a href="./index.html">Home Version 1</a></li>
+                                    <li><a href="./index2.html">Home Version 2</a></li>
+                                    <li><a href="./index3.html">Home Version 3</a></li>
+                                    <li><a href="./index4.html">Home Version 4</a></li>
+                                    <li><a href="./index5.html">Home Version 5</a></li>
+                                    <li><a href="./index6.html">Home Version 6</a></li>
+                                    <li><a href="#">Home Version 7</a></li>
+                                    <li><a href="#">Home Version 8</a></li>
+                                </ul>
+                            </li>
+                            <li class="shop">
+                                <a href="./Shop.html">SHOP</a>
+                                <div class="drop clearfix">
+                                    <ul>
+                                        <li class="shop"><a href="./Shop.html">Shop Layout</a></li>
+                                        <li><a href="./Shop.html">Standard Style</a></li>
+                                        <li><a href="./shop-sidebar.html">Shop Grid Sidebar</a></li>
+                                        <li><a href="">Shop List Style</a></li>
+                                        <li><a href="">Shop List Sidebar</a></li>
+                                        <li><a href="">Shop Right Sidebar</a></li>
+                                        <li><a href="">Store Location</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li class="products"><a href="">Products Layout</a></li>
+                                        <li><a href="./Tab Style 1.html">Tab Style 1</a></li>
+                                        <li><a href="">Tab Style 2</a></li>
+                                        <li><a href="">Gallery Style</a></li>
+                                        <li><a href="">Affiliate Style</a></li>
+                                        <li><a href="">Group Style</a></li>
+                                        <li><a href="">Fixed Image Style</a></li>
+                                    </ul>
+                                    <div class="img-menu">
+                                        <a href="">
+                                            <img src="./image/menu.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pages">
+                                <a href="./About us.html">PAGES</a>
+                                <ul>
+                                    <li><a href="./About us.html">About Us</a></li>
+                                    <li><a href="./Cart.html">Cart Page</a></li>
+                                    <li><a href="">Checkout</a></li>
+                                    <li><a href="">My Account</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                    <li><a href="">Compare</a></li>
+                                    <li><a href="./Contact Us.html">Contact Us</a></li>
+                                    <li><a href="">Login / Register</a></li>
+                                </ul>
+                            </li>
+                            <li class="blog">
+                                <a href="#">BLOG</a>
+                                <ul>
+                                    <li><a href="./Blog.html">Blog Standard</a></li>
+                                    <li><a href="">Blog Sidebar</a></li>
+                                    <li><a href="">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./About us.html">ABOUT</a></li>
+                            <li><a href="./Contact Us.html">CONTACT US</a></li>
+                        </ul>
+                        <ul class="clearfix">
+                            <li class="search">
+                                <a href="#">
+                                    <span class="iconfont icon-chazhao"></span>
+                                    <span class="iconfont icon-guanbi"></span>
+                                </a>
+                                <div class="input-wrap">
+                                    <form action="#"> 
+                                        <input type="text" placeholder="Search products...">
+                                        <button>
+                                            <span class="iconfont icon-chazhao"></span>
+                                        </button>
+                                    </form>          
+                                </div>
+                            </li>
+                            <li><a href="#"><span class="iconfont icon-touxiang"></span></a></li>
+                            <li><a href="#"><span class="iconfont icon-like"></span></a></li>
+                            <li>
+                                <a class="bag-warp" href="#">
+                                <span class="iconfont icon-shopbag"></span>
+                                <div class="bag-circle">01</div>
+                                 </a>
+                            </li>
+                            <li class="visible-xs">
+                                <a href="#">
+                                <span class="iconfont icon-Menu"></span>
+                                 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-top">
+                    <div class="img-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                        <img src="./image/breadcrumb-1.png" alt="">
+                    </div>
+                    <div class="img-right wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <img src="./image/breadcrumb-2.png" alt="">
+                    </div>
+                    <div class="mid-wrap">
+                        <div class="content-wrap">
+                            <h1>Product Details</h1>
+                            <a href="./Shop.html">Home</a>
+                            <span class="iconfont icon-right1"></span>
+                            <p>Product Details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <form action="#">
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>product</th>
+                                                    <th>price</th>
+                                                    <th>quantity</th>
+                                                    <th>subtotal</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="./image/cart-1.jpg" alt=""></a>
+                                                    </td>
+                                                    <td><a href="">Stylish Swing Chair
+                                                    </a></td>
+                                                    <td><span>$120.00</span></td>
+                                                    <td>
+                                                        <div class="add-num">
+                                                            <a class="minus" href="#">-</a>
+                                                            <input type="text" value="1">
+                                                            <a class="plus" href="#">+</a>
+                                                        </div>
+                                                    <td><span>$120.00</span></td>
+                                                    <td><a href=""><span class="iconfont icon-lajitong"></span></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="./image/cart-2.jpg" alt=""></a>
+                                                    </td>
+                                                    <td><a href="">Modern L ounge Chairs
+                                                    </a></td>
+                                                    <td><span>$120.00</span></td>
+                                                    <td>
+                                                        <div class="add-num">
+                                                            <a class="minus" href="#">-</a>
+                                                            <input type="text" value="1">
+                                                            <a class="plus" href="#">+</a>
+                                                        </div>
+                                                    <td><span>$120.00</span></td>
+                                                    <td><a href=""><span class="iconfont icon-lajitong"></span></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="./image/cart-3.jpg" alt=""></a>
+                                                    </td>
+                                                    <td><a href="">Modern Swivel Chair
+                                                    </a></td>
+                                                    <td><span>$120.00</span></td>
+                                                    <td>
+                                                        <div class="add-num">
+                                                            <a class="minus" href="#">-</a>
+                                                            <input type="text" value="1">
+                                                            <a class="plus" href="#">+</a>
+                                                        </div>
+                                                    <td><span>$120.00</span></td>
+                                                    <td><a href=""><span class="iconfont icon-lajitong"></span></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-xs-12">
+                                            <div class="continue">
+                                                <a href="#">Continue Shopping</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="continue update">
+                                                        <a href="#">Update Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="continue clear">
+                                                        <a href="#">Clear Cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-area2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h2>Calculate Shipping</h2>
+                                <div class="bangladesh">
+                                    <div class="inner-wrap">
+                                        <span class="optioned">Bangladish</span>
+                                        <span class="iconfont icon-xialajiantouxiao"></span>
+                                        <span class="iconfont icon-shouqijiantouxiao"></span>
+                                        <ul class="drop">
+                                            <div class="input-wrap">
+                                                <input type="text">
+                                            </div>
+                                            <li>angladish</li>
+                                            <li>Bahrian</li>
+                                            <li>Azerbaijan</li>
+                                            <li>Barbados</li>
+                                            <li>Barbados</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="country">
+                                    <input type="text" placeholder="Town/City">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="middle">
+                                    <h2>Coupon Discount
+                                    </h2>
+                                    <p>Enter your coupon code if you have one.
+                                    </p>
+                                    <div class="coupon">
+                                        <input type="text" placeholder="Coupon Code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="subtotal">
+                                    <div class="title">
+                                        <h2>Subtotal</h2>
+                                        <span>$180.00</span>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3>Shipping</h3>
+                                    <ul class="options">
+                                        <li><input type="radio" name="shipping"><label>Free Shipping</label></li>
+                                        <li><input type="radio" name="shipping"><label>Flat rate: $100.00</label></li>
+                                        <li><input type="radio" name="shipping"><label>Local pickup: $120.00</label></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="container">
+                        <div class="title">
+                            <span class="iconfont icon-duigou"></span>
+                            <p>Returning customer?
+                            </p>
+                            <a href="#">Click here to login
+                            </a>
+                        </div>
+                        <div class="content">
+                            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Blling & Shipping section.
+                            </p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="address">
+                                        <label for="">Username Or Email Address
+                                            *
+                                        </label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="password">
+                                        <label for="">passwords
+                                            *
+                                        </label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="remember">
+                                <button>LOGIN</button>
+                                <div class="input-wrap">
+                                    <input type="checkbox">
+                                    <label for="">Remember me</label>
+                                </div>
+                            </div>
+                            <div class="lost">
+                                <a href="#">Lost your password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code">
+                    <div class="container">
+                        <div class="title">
+                            <span class="iconfont icon-duigou"></span>
+                            <p>Have a coupon?
+                            </p>
+                            <a href="#">Click here to enter your code
+                            </a>
+                        </div>
+                        <div class="content">
+                            <input type="text" class="text">
+                            <input type="submit" value="APPLY Coupon" class="submit">
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <script>
+                //指针划过a变色
+        $('.dollar').hover(function (even) {
+            even.preventDefault()
+            $('.dollar>ul').stop().slideDown(300)
+            $('.dollar a').hover(function (even) {
+                $(this).addClass('turn-decoration')
+            }, function () {
+                $(this).removeClass('turn-decoration')
+            })
+        }, function () {
+            $('.dollar>ul').stop().slideUp(300)
+        })
+
+        $('.language').hover(function (even) {
+            even.preventDefault()
+            $('.language>ul').stop().slideDown(300)
+            $('.language a').hover(function (even) {
+                $(this).addClass('turn-decoration')
+            }, function () {
+                $(this).removeClass('turn-decoration')
+            })
+        }, function () {
+            $('.language>ul').stop().slideUp(300)
+        })
+
+        //点击a取消a的下划线效果
+        $('a').click(function (even) {
+            even.preventDefault()
+            $(this).css('text-decoration', 'none').slideDown()
+        })
+        //单击公文包按钮，出现右侧margin，同时body变暗
+        $('.bag-warp').click(function (even) {
+            even.preventDefault()
+            // $('body').addClass('body-turn')
+            $('.body-turn').css('visibility', 'visible')
+            $('.margin').animate({
+                right: '0',
+                opacity: '1',
+            })
+        })
+        $('.rotate').click(function () {
+            // $('body').removeClass('body-turn')
+            $('.body-turn').css('visibility', 'hidden')
+            $('.margin').animate({
+                right: '-406px',
+                opacity: '0'
+            })
+        })
+        //滚动条超过header-top时滑动并固定
+        $(window).scroll(function (even) {
+            even.preventDefault()
+            var h = $('header').outerHeight()
+            var s = $(window).scrollTop()
+            if (s > h) {
+                $('.header-bottom').addClass('header-bottom-animate')
+
+            } else {
+                $('.header-bottom').removeClass('header-bottom-animate')
+            }
+        })
+        //动画
+        new WOW().init();
+        //点击.top返回顶部
+        $('.top').click(function(even){
+            even.preventDefault()
+            $('html').animate({'scrollTop':0})
+        })
+        //menu下拉菜单
+        $('.header-bottom .container>ul>li').eq(0).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(1).hover(function () {
+            $('.header-bottom .container>ul>li>div').stop().slideDown()
+        }, function () {
+            $('.header-bottom .container>ul>li>div').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(2).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        $('.header-bottom .container>ul>li').eq(3).hover(function () {
+            $(this).find('ul').stop().slideDown()
+        }, function () {
+            $(this).find('ul').stop().slideUp()
+        })
+        //搜索框
+        $('.header-bottom .container>ul:nth-of-type(2) .icon-chazhao').click(function (event) {
+            event.preventDefault()
+            $('.header-bottom .input-wrap').addClass('input-ani')
+            $('.header-bottom .search a .icon-guanbi').css('display', 'inline')
+            $('.header-bottom .search a .icon-chazhao').css('display', 'none')
+        })
+        $('.header-bottom .search a .icon-guanbi').click(function (event) {
+            event.preventDefault()
+            $('.header-bottom .input-wrap').removeClass('input-ani')
+            $('.header-bottom .search a .icon-guanbi').css('display', 'none')
+            $('.header-bottom .search a .icon-chazhao').css('display', 'inline')
+        })
+              //增减购物车的数量
+              $('.minus').click(function() {
+            var num = $('.add-num input').val()*1;
+            if(num>0){
+                num = num - 1
+            };
+            $('.add-num input').val(num);
+        })
+        $('.plus').click(function() {
+            var num = $('.add-num input').val()*1;
+                num = num + 1;
+            $('.add-num input').val(num)
+        })
+        //下拉菜单选中li中的内容
+        $('.icon-xialajiantouxiao').click(function(){
+            $(this).css('display','none')
+            $('.icon-shouqijiantouxiao').css('display','block')
+            $('.cart-area2 .bangladesh .drop').css('display','block')
+        })
+        $('.icon-shouqijiantouxiao').click(function(){
+            $(this).css('display','none')
+            $('.icon-xialajiantouxiao').css('display','block')
+            $('.cart-area2 .bangladesh .drop').css('display','none')
+        }) 
+        $('.cart-area2 .bangladesh .drop li').click(function(){
+            $(this).addClass('default').siblings().removeClass('default')
+            var s = $(this).text()
+            console.log(s)
+            $('.cart-area2 .bangladesh .optioned').text(s)
+            $('.cart-area2 .bangladesh .drop').css('display','none')
+        })      
+        $(window).scroll(function (even) {
+            even.preventDefault()
+            var h = $('.cart-area2 .bangladesh .drop').outerHeight()
+            var s = $(window).scrollTop()
+            if (s > h) {
+                $('.cart-area2 .bangladesh .drop').addClass('position-turn')
+
+            } else {
+                $('.cart-area2 .bangladesh .drop').removeClass('position-turn')
+            }
+        })
+        //slide-toggle()
+        $('.login .title a').click(function(even){
+            even.preventDefault()
+            $('.login .content').slideToggle(900)
+        })
+        $('.code .title a').click(function(even){
+            even.preventDefault()
+            $('.code .content').slideToggle(900)
+        })
+    </script>
+</body>
+</html>

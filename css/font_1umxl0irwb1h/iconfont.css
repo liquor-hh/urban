@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1642646355542') format('truetype');
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 3126714 */
+  src: url('//at.alicdn.com/t/font_3126714_7fpvc71tdtt.woff2?t=1642833273775') format('woff2'),
+       url('//at.alicdn.com/t/font_3126714_7fpvc71tdtt.woff?t=1642833273775') format('woff'),
+       url('//at.alicdn.com/t/font_3126714_7fpvc71tdtt.ttf?t=1642833273775') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanbi:before {
+  content: "\e624";
+}
+
+.icon-xiajiantou:before {
+  content: "\e6cc";
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chazhao:before {
+  content: "\e741";
+}
+
+.icon-touxiang:before {
+  content: "\e65f";
+}
+
+.icon-like:before {
+  content: "\e707";
+}
+
+.icon-Menu:before {
+  content: "\e652";
+}
+
+.icon-shopbag:before {
+  content: "\e667";
+}
+.icon-xiajiantou:before {
+  content: "\e6cc";
+}
+
+
